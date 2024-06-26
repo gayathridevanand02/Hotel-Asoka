@@ -1,0 +1,105 @@
+/* styles/landing.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+    /* Dark background for navbar */
+}
+
+.navbar-brand img {
+    height: 20px;
+    /* Adjust the logo size */
+    margin-right: 10px;
+    /* Space between logo and text */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    /* White text color */
+}
+
+.nav-link {
+    color: #ffffff;
+    /* White text color */
+}
+
+.nav-link:hover {
+    color: #ffc107;
+    /* Yellow on hover */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    height: 500px;
+    /* Adjust the height of the carousel images */
+    object-fit: cover;
+    /* Cover the container */
+}
+
+/* Card Group Styles */
+.card-group .card {
+    margin: 15px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow to cards */
+}
+
+.card-title {
+    font-weight: 700;
+    color: #343a40;
+    /* Dark text color for card titles */
+}
+
+.card-text {
+    color: #6c757d;
+    /* Muted text color for card text */
+}
+
+.card-body button {
+    background-color: #007bff;
+    /* Primary blue color for buttons */
+    border: none;
+}
+
+.card-body button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.footer .container a {
+    color: #007bff;
+    /* Primary blue color for links */
+}
+
+.footer .container a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+}

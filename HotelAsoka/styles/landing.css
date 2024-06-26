@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #f8f8f8;
+    background-color: #d3bd95;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -16,14 +16,19 @@ header {
     padding: 10px 20px;
 }
 
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
 .logo {
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 10px;
+    max-height: 10px;
     margin-right: 10px;
 }
 
