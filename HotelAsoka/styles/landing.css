@@ -5,15 +5,15 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 10px 20px;
 }
 
 .logo {
@@ -22,14 +22,15 @@ header {
 }
 
 .logo img {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 40px;
+    max-height: 40px;
     margin-right: 10px;
 }
 
 .logo h1 {
     font-size: 24px;
     margin: 0;
+    color: #333;
 }
 
 .nav-links {
@@ -45,15 +46,15 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
-    font-size: 18px;
+    color: #333;
+    font-size: 16px;
     padding: 8px 15px;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #555;
+    background-color: #ddd;
 }
 
 .bg-image {
