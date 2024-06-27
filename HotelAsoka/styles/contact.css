@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+h2,
+h3 {
+    color: #343a40;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding-top: 2rem;
+}
+
+footer h5 {
+    color: #ffcc00;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .list-inline-item a {
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+footer .list-inline-item a:hover {
+    color: #ffffff;
+}
+
+footer .text-warning {
+    color: #ffcc00 !important;
+}
+
+footer .btn-floating {
+    background-color: #343a40;
+    border: 1px solid #ffcc00;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+footer .btn-floating:hover {
+    background-color: #ffcc00;
+    color: #343a40;
+}
+
+footer hr {
+    border-top: 1px solid #ffffff;
+}

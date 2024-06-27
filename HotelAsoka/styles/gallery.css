@@ -21,6 +21,11 @@ body {
     /* Space between logo and text */
 }
 
+.navbar-brand .logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -48,6 +53,11 @@ body {
     /* Adjust the height of the carousel images */
     object-fit: cover;
     /* Cover the container */
+}
+
+.carousel {
+    margin-top: 20px;
+    /* Adjust the value to increase or decrease the space */
 }
 
 /* Card Group Styles */
@@ -80,7 +90,7 @@ body {
     /* Darker blue on hover */
 }
 
-/* Footer Styles */
+/* Footer Styles
 .footer {
     background-color: #f8f9fa;
     border-top: 1px solid #e9ecef;
@@ -96,10 +106,10 @@ body {
 
 .footer .container a {
     color: #007bff;
-    /* Primary blue color for links */
+    /* Primary blue color for links 
 }
 
 .footer .container a:hover {
     color: #0056b3;
-    /* Darker blue on hover */
-}
+    /* Darker blue on hover 
+}*/

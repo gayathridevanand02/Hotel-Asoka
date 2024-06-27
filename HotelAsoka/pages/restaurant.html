@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Asoka -Landing Page</title>
-    <link rel="stylesheet" href="styles/landing.css">
+    <title>Hotel Asoka -Restaurant Page</title>
+    <link rel="stylesheet" href="styles/restaurant.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -15,14 +15,172 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img style="width: 50px;" src="../images/logo.png" alt="Hotel Asoka Logo" class="logo-img">
+                    Hotel Asoka
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bookings
+                            </a>
+                            <ul class="dropdown-menu" style="left: -38px;">
+                                <li><a class="dropdown-item" href="#">Rooms</a></li>
+                                <li><a class="dropdown-item" href="#">Conference Halls</a></li>
+                                <li><a class="dropdown-item" href="#">Dining</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <div class="hero-section">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Welcome to Hotel Asoka Restaurant</h1>
+            <p class="lead">Experience a culinary journey like no other. Our restaurant offers a variety of dishes to
+                satisfy all tastes.</p>
+        </div>
+    </div>
 
-    <footer class="footer mt-auto py-3 bg-light">
+    <main class="container my-5">
+        <section class="text-center mb-5">
+            <h2 class="display-5">Our Cuisines</h2>
+            <p class="lead">Discover our diverse and delicious food offerings</p>
+        </section>
 
-        <div class="container">
-            <i class="fa-solid fa-copyright"></i>
-            <span class="text-muted">Copyrights
-                <a href="https://mdbootstrap.com">hotelasoka.com</a></span>
+        <section id="cuisines">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="../images/indian.jpg" class="card-img-top" alt="Indian Cuisine">
+                        <div class="card-body">
+                            <h5 class="card-title">Indian Cuisine</h5>
+                            <p class="card-text">Enjoy a rich and diverse selection of traditional Indian dishes,
+                                bursting with flavors and spices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="../images/continental.jpg" class="card-img-top" alt="Continental Cuisine">
+                        <div class="card-body">
+                            <h5 class="card-title">Continental Cuisine</h5>
+                            <p class="card-text">Indulge in classic continental dishes with a modern twist, perfect for
+                                a sophisticated palate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="../images/dessert.jpg" class="card-img-top" alt="Desserts">
+                        <div class="card-body">
+                            <h5 class="card-title">Delectable Desserts</h5>
+                            <p class="card-text">Treat yourself to our delicious range of desserts, from traditional
+                                sweets to modern confections.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Company Name</h5>
+                    <p>Hotel Asoka: Your premier destination for comfort,
+                        elegance, and exceptional local hospitality in the heart of the city</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Services</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Rooms</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Restaurant</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Party halls</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Information</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">About Us</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Privacy and policy</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none">Contact Us</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Iron Bridge, Alappuzha
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> hotelasoka@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> +91 90488 00950
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>Copyright &copy; 2024 All rights reserved by:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-warning">Hotel Asoka</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                        class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                        class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

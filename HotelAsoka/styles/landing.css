@@ -17,7 +17,12 @@ header {
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand .logo-img {
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -74,4 +79,10 @@ header {
 .bg-image img {
     width: 100%;
     height: auto;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -38px;
+    margin-top: .125rem;
 }

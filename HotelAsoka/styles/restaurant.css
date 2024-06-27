@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+    background: url('../images/resbg.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+.header,
+.footer {
+    background-color: #343a40;
+    color: rgb(183, 48, 48);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s;
+}
+
+footer a {
+    color: #ffc107;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-weight: 400;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
