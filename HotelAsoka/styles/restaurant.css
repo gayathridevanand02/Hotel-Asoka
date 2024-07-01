@@ -35,6 +35,15 @@ footer a:hover {
     color: #fff;
 }
 
+footer .text-md-left {
+    text-align: left !important;
+}
+
+footer p,
+footer h5 {
+    text-align: left;
+}
+
 .card-title {
     font-weight: 700;
 }
