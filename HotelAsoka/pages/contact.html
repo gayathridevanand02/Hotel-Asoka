@@ -93,40 +93,62 @@
             </div>
         -->
         <div class="col-md-6">
-            <h3 class="mb-4">Enquiry</h3>
-            <form>
-                <div class="mb-3">
-                    <label for="enquiryName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="enquiryName" required>
+            <section class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="mb-4">Enquiry</h3>
+                        <form id="enquiryForm">
+                            <div class="mb-3">
+                                <label for="enquiryName" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="enquiryName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="enquiryEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="enquiryEmail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="enquiryPhone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="enquiryPhone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="enquiryMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="enquiryMessage" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#confirmModal">Submit</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="enquiryEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="enquiryEmail" required>
-                </div>
-                <div class="mb-3">
-                    <label for="enquiryPhone" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="enquiryPhone" required>
-                </div>
-                <div class="mb-3">
-                    <label for="enquiryMessage" class="form-label">Message</label>
-                    <textarea class="form-control" id="enquiryMessage" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-        </div>
+            </section>
 
-        <section class="mt-5">
-            <h3 class="mb-4">Find Us Here</h3>
-            <div class="embed-responsive embed-responsive-21by9">
-                <iframe class="embed-responsive-item"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.471129593024!2d72.83106011472056!3d19.025207887111138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce7d5fda5eab%3A0x546ad2dbd2d2d92!2sHotel%20Asoka!5e0!3m2!1sen!2sin!4v1606821541100!5m2!1sen!2sin"
-                    width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
-            </div>
-        </section>
+            <section class="mt-5">
+                <h3 class="mb-4">Find Us Here</h3>
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.471129593024!2d72.83106011472056!3d19.025207887111138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce7d5fda5eab%3A0x546ad2dbd2d2d92!2sHotel%20Asoka!5e0!3m2!1sen!2sin!4v1606821541100!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </section>
     </main>
-
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true"
+        data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirm Submission</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to submit the enquiry?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="confirmSubmit">Yes, Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="bg-secondary text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
