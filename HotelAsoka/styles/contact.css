@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffffee;
 }
 
 header {
@@ -64,10 +64,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer .list-inline-item a {
+/*footer .list-inline-item a {
     font-size: 1.5rem;
     color: #ffcc00;
-}
+}*/
 
 footer .list-inline-item a:hover {
     color: #ffffff;
@@ -78,17 +78,17 @@ footer .text-warning {
 }
 
 footer .btn-floating {
-    background-color: #343a40;
-    border: 1px solid #ffcc00;
+    /*background-color: #343a40;
+    border: 1px solid #ffcc00;*/
     padding: 0.5rem;
     border-radius: 50%;
 }
 
-footer .btn-floating:hover {
+/*footer .btn-floating:hover {
     background-color: #ffcc00;
     color: #343a40;
 }
-
+*/
 footer hr {
     border-top: 1px solid #ffffff;
 }
